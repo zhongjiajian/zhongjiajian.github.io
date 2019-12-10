@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "smsCode":"/smsCode/smsCode"
+  }
+}

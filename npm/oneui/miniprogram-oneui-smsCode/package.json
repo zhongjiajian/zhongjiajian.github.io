@@ -1,0 +1,14 @@
+{
+  "name": "miniprogram-oneui-smscode",
+  "version": "1.0.1",
+  "description": "小程序短信验证码输入框",
+  "main": "smsCode/smsCode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "小程序，短信验证码，验证码，输入框"
+  ],
+  "author": "zhongjiajian",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+
+
+.captcha {
+  position: relative;
+}
+
+.captcha .code-wrappper {
+  display: flex;
+  justify-content: center;
+}
+
+.captcha .code-wrappper .code-item {
+  display: inline-block;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  border: 1px solid #ccc;
+}
+.captcha .code-wrappper .code-item.active{
+  border-color: red;
+}
+
+.captcha  .hideInput {
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
