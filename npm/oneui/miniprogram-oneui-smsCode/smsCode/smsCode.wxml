@@ -1,6 +1,0 @@
-<view class="captcha" catchtap="focus">
-  <view class="code-wrappper">
-    <text class="code-item {{index===code.length?'active':''}}" wx:for="{{codeNum}}" wx:key="{{index}}" style="width:{{100/codeNum}}%;">{{code[index]}}</text>
-  </view>
-  <input class="hideInput" type="number" maxlength="{{codeNum}}" adjust-position="{{false}}" focus="{{isFocus}}" bindinput="onInput" bindblur="onBlur" />
-</view>
