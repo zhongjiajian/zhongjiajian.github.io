@@ -1,7 +1,7 @@
 var cacheName = 'test-sw-0-1';
 var cacheFiles = [
     '/',
-    '/PWA/index.html',
+    '/index.html',
     '/PWA/icon-168.png'
     // 在这里可以选择缓存文件
 ];
