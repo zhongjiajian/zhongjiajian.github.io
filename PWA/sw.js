@@ -1,8 +1,8 @@
 var cacheName = 'test-sw-0-1';
 var cacheFiles = [
-    './',
-    './PWA.html',
-    './icon-168.png'
+    '/',
+    '/PWA/index.html',
+    '/PWA/icon-168.png'
     // 在这里可以选择缓存文件
 ];
 // 监听 install 事件，安装完成后，进行文件缓存
